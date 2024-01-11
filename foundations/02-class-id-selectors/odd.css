@@ -1,4 +1,7 @@
-.odd{
+.odd {
     background-color: rgb(242, 103, 126);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+    }
+.adjust-font-size {
+    font-size: 24px;
+    }
