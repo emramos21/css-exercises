@@ -5,15 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Methods for Adding CSS</title>
+    <!--even though we are using the below code to style words in the body tab, we put the link in the head 
+    tag. this is how we add external CSS-->
     <link rel="stylesheet" href="external.css">
   </head>
   <body>
     <div>Style me via the external method!
     </div>
     <p>I would like to be styled with the internal method, please.</p>
-    <!--<style>
-
-    </style>-->
+    <style>
+      div {
+        background-color: green;
+        color: white;
+        font-size: 18px;
+      }
+    </style>
     <button>Inline Method</button>
   </body>
 </html>
