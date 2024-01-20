@@ -4,7 +4,7 @@ body {
 
 .class.para {
   color: hsl(0, 0%, 0%);
-  font-weight: 800;
+  font-weight: bold;
 }
 
 /*.class.parasmall-para {
@@ -12,7 +12,7 @@ body {
   font-weight: 800;
 }*/
 
-.class.para {
+.class {
   font-size: 22px;
 }
 
