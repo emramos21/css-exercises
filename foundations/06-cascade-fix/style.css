@@ -9,10 +9,10 @@ body {
 }
 
 .small-para {
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 800;
 }
-
+/* not sure if i even need the below code*/
 .class {
   font-size: 22px;
 }
@@ -21,9 +21,10 @@ body {
   background: green;
   color: white;
   font-weight: bold;
+  font-size: 20px;
 } 
 
-.button {
+.cancel {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   font-size: 20px;
@@ -35,8 +36,13 @@ body {
   font-size: 14px;
 }
 
-div.text {
+#parent {
   color: rgb(0, 0, 0);
   font-size: 22px;
-  font-weight: 100;
+  font-weight: 800;
+}
+.child {
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  font-weight: 800;
 }
